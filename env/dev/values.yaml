@@ -1,10 +1,8 @@
 ---
-data:
-  heapSize: "2048m"
-  resources:
-    limits:
-      cpu: "1"
-      memory: "4Gi"
-    requests:
-      cpu: "25m"
-      memory: "2Gi"
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: traefik
+  enabled: true
+  hosts:
+  - apm.p4.greenpeace.org
+  path: /
