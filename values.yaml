@@ -1,0 +1,8 @@
+---
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: traefik
+  enabled: true
+  hosts:
+  - apm.p4.greenpeace.org
+  path: /
