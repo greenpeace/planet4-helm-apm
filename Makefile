@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 RELEASE 	?= apm
-NAMESPACE	?= default
+NAMESPACE	?= elastic
 
 CHART_NAME ?= elastic/apm-server
 CHART_VERSION ?= 7.9.3
