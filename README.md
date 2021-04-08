@@ -3,7 +3,7 @@
 ![Planet4](./p4logo.png)
 # ElasticStack [APM](https://www.elastic.co/apm)
 
-Free and open application performance monitoring.  Used by Wordpress php to post web site transaction data.  Extracted for recharging P4 websites to NROs [here].(https://github.com/greenpeace/planet4-nro-recharge)
+Free and open application performance monitoring.  Used by Wordpress php to post web site transaction data.  Extracted for recharging P4 websites to NROs [here](https://github.com/greenpeace/planet4-nro-recharge).
 
 <h1>Important Notes</h1>
 
