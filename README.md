@@ -1,15 +1,15 @@
 [![Greenpeace](https://circleci.com/gh/greenpeace/planet4-helm-apm.svg?style=shield)](https://circleci.com/gh/greenpeace/planet4-helm-apm)
 
 ![Planet4](./p4logo.png)
-# ElasticStack APM
+# ElasticStack [APM](https://www.elastic.co/apm)
 
-Elasticsearch is the distributed search and analytics engine at the heart of the Elastic Stack.  Used by the Wordpress plugin Elasticpress to index posts.
+Free and open application performance monitoring.  Used by Wordpress php to post web site transaction data.  Extracted for recharging P4 websites to NROs.
 
 <h1>Important Notes</h1>
 
 >Ensure compatibility with:
 - [Elasticsearch](https://github.com/greenpeace/planet4-helm-elasticsearch) 
-- Elasticpress plugin in WP
+- [Wordpress APM Agent Elasticsearch plugin](https://github.com/matheusevangelista/Wordpress-APM-Agent-Elasticsearch) in WP
 - [ES-exporter](https://github.com/greenpeace/planet4-helm-esexporter)
 - [Kibana](https://github.com/greenpeace/planet4-helm-kibana)
 
@@ -28,8 +28,8 @@ This repository is deployed via [CircleCI](https://circleci.com/gh/greenpeace/pl
  - Approval and merge deploys to production.
 
 ### Usage
- - To access APM from withing the cluster use:
-     `apm-apm-server:8200`
+ - To access APM from within the cluster use:
+     `http://apm-apm-server.elastic.svc.cluster.local:8200`
  - Clone the repo to access makefile commands via cli that are not executed via CircleCI
    - `make status` - <em> display status of named release </em>
    - `make value` - <em> display user values followed by all values deployed </em>
